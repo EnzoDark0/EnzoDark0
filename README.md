@@ -33,7 +33,11 @@ local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local Autoreport = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-
+local Arsenal = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Grabknife = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -295,6 +299,41 @@ Autoreport.MouseButton1Down:Connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
 end)
 UICorner_13.Parent = Autoreport
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Frame
+Arsenal.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Arsenal.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Arsenal.Position = UDim2.new(0, 101, 0, 213)
+Arsenal.Size = UDim2.new(0.103194103, 0, 0.111398965, 0)
+Arsenal.Style = Enum.ButtonStyle.RobloxButton
+Arsenal.Font = Enum.Font.SourceSansBold
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 15.000
+Arsenal.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main', true))()
+end)
+UICorner_14.Parent = Arsenal
+
+Grabknife.Name = "Grab knife"
+Grabknife.Parent = Frame
+Grabknife.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Grabknife.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Grabknife.Position = UDim2.new(0, 101, 0, 263)
+Grabknife.Size = UDim2.new(0.103194103, 0, 0.111398965, 0)
+Grabknife.Style = Enum.ButtonStyle.RobloxButton
+Grabknife.Font = Enum.Font.SourceSansBold
+Grabknife.Text = "Grab Knife [FE]"
+Grabknife.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grabknife.TextSize = 14.000
+Grabknife.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Grabknife.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/517da2533882998a020b3ed9d032fdb3652b00dd/WORKING%20Grabknifv4.txt', true))()
+end)
+UICorner_15.Parent = Grabknife
+
 
 UIAspectRatioConstraint.Parent = BotHub
 UIAspectRatioConstraint.AspectRatio = 1.910
