@@ -276,7 +276,7 @@ TappingSim.TextColor3 = Color3.fromRGB(255, 255, 255)
 TappingSim.TextSize = 15.000
 TappingSim.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TappingSim.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
 end)
 UICorner_12.Parent = TappingSim
 
@@ -313,7 +313,7 @@ Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
 Arsenal.TextSize = 15.000
 Arsenal.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Arsenal.MouseButton1Down:Connect(function()
-loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main', true))()
 end)
 UICorner_14.Parent = Arsenal
 
@@ -330,7 +330,7 @@ Grabknife.TextColor3 = Color3.fromRGB(255, 255, 255)
 Grabknife.TextSize = 14.000
 Grabknife.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Grabknife.MouseButton1Down:Connect(function()
-loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/517da2533882998a020b3ed9d032fdb3652b00dd/WORKING%20Grabknifv4.txt', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/517da2533882998a020b3ed9d032fdb3652b00dd/WORKING%20Grabknifv4.txt', true))()
 end)
 UICorner_15.Parent = Grabknife
 
