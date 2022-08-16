@@ -69,7 +69,7 @@ Amongus.Text = "Among us"
 Amongus.TextColor3 = Color3.fromRGB(122, 122, 122)
 Amongus.TextSize = 16.000
 Amongus.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/amongus"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/amonguslol"))()
 end)
 UICorner.Parent = Amongus
 
@@ -83,7 +83,7 @@ Walks.Text = "Walks on walls"
 Walks.TextColor3 = Color3.fromRGB(122, 122, 122)
 Walks.TextSize = 16.000
 Walks.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
 
 UICorner_2.Parent = Walks
@@ -114,7 +114,7 @@ Sonic.TextColor3 = Color3.fromRGB(122, 122, 122)
 Sonic.TextSize = 16.000
 Sonic.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
 Sonic.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/SyF5t70A"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/K7YSDZsB"))()
 end)
 UICorner_4.Parent = Sonic
 
