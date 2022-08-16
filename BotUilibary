@@ -24,10 +24,11 @@ local UICorner_8 = Instance.new("UICorner")
 local PlayerImage = Instance.new("ImageLabel")
 local UICorner_9 = Instance.new("UICorner")
 local PlayerName = Instance.new("TextLabel")
-local ImageButton = Instance.new("ImageButton")
-local ImageButton_2 = Instance.new("ImageButton")
+local Close = Instance.new("ImageButton")
+local soon = Instance.new("ImageButton")
 
 --Properties:
+
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -67,9 +68,8 @@ Amongus.Text = "Among us"
 Amongus.TextColor3 = Color3.fromRGB(122, 122, 122)
 Amongus.TextSize = 16.000
 Amongus.MouseButton1Down:Connect(function()
-loadstring(game:HttpGet("://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/amongus"))()
+	loadstring(game:HttpGet("://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/amongus"))()
 end)
-
 UICorner.Parent = Amongus
 
 Walks.Name = "Walks"
@@ -84,6 +84,7 @@ Walks.TextSize = 16.000
 Walks.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
+
 UICorner_2.Parent = Walks
 
 Crazy.Name = "Crazy"
@@ -99,7 +100,6 @@ Crazy.TextSize = 16.000
 Crazy.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/Crazy"))()
 end)
-
 UICorner_3.Parent = Crazy
 
 Sonic.Name = "Sonic"
@@ -130,7 +130,6 @@ Grabknife.TextColor3 = Color3.fromRGB(122, 122, 122)
 Grabknife.TextSize = 16.000
 Grabknife.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
 Grabknife.MouseButton1Down:Connect(function()
-
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/WORKING%20Grabknifv4.txt"))()
 end)
 UICorner_5.Parent = Grabknife
@@ -228,37 +227,60 @@ PlayerName.Font = Enum.Font.Code
 PlayerName.TextColor3 = Color3.fromRGB(127, 127, 127)
 PlayerName.TextSize = 18.000
 
-ImageButton.Parent = Frame
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.Position = UDim2.new(0.955578923, 0, 0, 0)
-ImageButton.Size = UDim2.new(0, 18, 0, 19)
-ImageButton.AutoButtonColor = false
-ImageButton.Image = "http://www.roblox.com/asset/?id=10616483390"
-ImageButton.ScaleType = Enum.ScaleType.Crop
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.955578923, 0, 0, 0)
+Close.Size = UDim2.new(0, 18, 0, 19)
+Close.AutoButtonColor = false
+Close.Image = "http://www.roblox.com/asset/?id=10616483390"
+Close.ScaleType = Enum.ScaleType.Crop
 
-ImageButton_2.Parent = Frame
-ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_2.BackgroundTransparency = 1.000
-ImageButton_2.Position = UDim2.new(0.894603312, 0, 0, 0)
-ImageButton_2.Size = UDim2.new(0, 18, 0, 19)
-ImageButton_2.Image = "http://www.roblox.com/asset/?id=10616484753"
+soon.Name = "soon"
+soon.Parent = Frame
+soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+soon.BackgroundTransparency = 1.000
+soon.Position = UDim2.new(0.894603312, 0, 0, 0)
+soon.Size = UDim2.new(0, 18, 0, 19)
+soon.Image = "http://www.roblox.com/asset/?id=10616484753"
 
 -- Scripts:
 
-local function RZDZQ_fake_script() -- ImageButton.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton)
+local function HASAESW_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(RZDZQ_fake_script)()
-local function QWAU_fake_script() -- ImageButton_2.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_2)
+coroutine.wrap(HASAESW_fake_script)()
+local function FYEFOF_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
 
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Visible = true
-		end)
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.PlayerImage.Image = content
+	
+	frame.PlayerName.Text = player.Name
+	
 end
-coroutine.wrap(QWAU_fake_script)()
+coroutine.wrap(FYEFOF_fake_script)()
