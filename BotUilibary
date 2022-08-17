@@ -41,7 +41,8 @@ Frame.BackgroundColor3 = Color3.fromRGB(68, 76, 84)
 Frame.BorderColor3 = Color3.fromRGB(68, 76, 84)
 Frame.Position = UDim2.new(0.292260706, 0, 0.179487184, 0)
 Frame.Size = UDim2.new(0, 410, 0, 473)
-
+Frame.Active = true
+Frame.Draggable = true
 Bot.Name = "Bot"
 Bot.Parent = Frame
 Bot.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
