@@ -1,3 +1,7 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -37,8 +41,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(68, 76, 84)
 Frame.BorderColor3 = Color3.fromRGB(68, 76, 84)
 Frame.Position = UDim2.new(0.292260706, 0, 0.179487184, 0)
 Frame.Size = UDim2.new(0, 410, 0, 473)
-Frame.Active = true
-Frame.Draggable = true
+
 Bot.Name = "Bot"
 Bot.Parent = Frame
 Bot.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
@@ -58,6 +61,7 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderColor3 = Color3.fromRGB(68, 76, 84)
 ScrollingFrame.Position = UDim2.new(0, 0, 0.0401691347, 0)
 ScrollingFrame.Size = UDim2.new(0, 410, 0, 384)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
 
 Amongus.Name = "Amongus"
 Amongus.Parent = ScrollingFrame
@@ -83,9 +87,8 @@ Walks.Text = "Walks on walls"
 Walks.TextColor3 = Color3.fromRGB(122, 122, 122)
 Walks.TextSize = 16.000
 Walks.MouseButton1Down:Connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
-
 UICorner_2.Parent = Walks
 
 Crazy.Name = "Crazy"
@@ -187,7 +190,6 @@ Simplity.TextColor3 = Color3.fromRGB(122, 122, 122)
 Simplity.TextSize = 16.000
 Simplity.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
 Simplity.MouseButton1Down:Connect(function()
-
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simpleopensource/main/main"))()
 end)
 UICorner_7.Parent = Simplity
@@ -248,15 +250,16 @@ soon.Image = "http://www.roblox.com/asset/?id=10616484753"
 
 -- Scripts:
 
-local function HASAESW_fake_script() -- Close.LocalScript 
+local function WFMNFK_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(HASAESW_fake_script)()
-local function FYEFOF_fake_script() -- Frame.LocalScript 
+
+coroutine.wrap(WFMNFK_fake_script)()
+local function GFQOYZ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -284,4 +287,4 @@ local function FYEFOF_fake_script() -- Frame.LocalScript
 	frame.PlayerName.Text = player.Name
 	
 end
-coroutine.wrap(FYEFOF_fake_script)
+coroutine.wrap(GFQOYZ_fake_script)()
