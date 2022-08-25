@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -23,13 +19,23 @@ local Coolkid = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local Simplity = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local idk = Instance.new("TextButton")
+local Domain = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local PlayerImage = Instance.new("ImageLabel")
+local Nameless = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
+local Sad = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local dupe = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local petsim = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Bedwars = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local PlayerImage = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
 local PlayerName = Instance.new("TextLabel")
 local Close = Instance.new("ImageButton")
-local soon = Instance.new("ImageButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -39,11 +45,9 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(68, 76, 84)
 Frame.BorderColor3 = Color3.fromRGB(68, 76, 84)
-Frame.Position = UDim2.new(0.292260706, 0, 0.179487184, 0)
-Frame.Size = UDim2.new(0, 410, 0, 473)
-Frame.Parent.Draggable = true
-Frame.Parent.Selectable = true
-Frame.Parent.Active = true
+Frame.Position = UDim2.new(0.30988434, 0, 0.144947708, 0)
+Frame.Size = UDim2.new(0, 410, 0, 472)
+
 Bot.Name = "Bot"
 Bot.Parent = Frame
 Bot.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
@@ -63,7 +67,7 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderColor3 = Color3.fromRGB(68, 76, 84)
 ScrollingFrame.Position = UDim2.new(0, 0, 0.0401691347, 0)
 ScrollingFrame.Size = UDim2.new(0, 410, 0, 384)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 560)
 
 Amongus.Name = "Amongus"
 Amongus.Parent = ScrollingFrame
@@ -154,7 +158,7 @@ TextLabel.TextWrapped = true
 TextLabel_2.Parent = ScrollingFrame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.24999404, 0, 0.28101325, 0)
+TextLabel_2.Position = UDim2.new(0.249994025, 0, 0.452623397, 0)
 TextLabel_2.Size = UDim2.new(0, 200, 0, 115)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "Hubs"
@@ -167,7 +171,7 @@ Coolkid.Parent = ScrollingFrame
 Coolkid.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
 Coolkid.BorderColor3 = Color3.fromRGB(36, 36, 36)
 Coolkid.BorderSizePixel = 4
-Coolkid.Position = UDim2.new(0.0558394268, 0, 0.360635936, 0)
+Coolkid.Position = UDim2.new(0.0558394231, 0, 0.532246113, 0)
 Coolkid.Size = UDim2.new(0, 362, 0, 50)
 Coolkid.Font = Enum.Font.SourceSans
 Coolkid.Text = "C00lkid Reborn"
@@ -184,7 +188,7 @@ Simplity.Parent = ScrollingFrame
 Simplity.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
 Simplity.BorderColor3 = Color3.fromRGB(36, 36, 36)
 Simplity.BorderSizePixel = 4
-Simplity.Position = UDim2.new(0.0558394268, 0, 0.419832557, 0)
+Simplity.Position = UDim2.new(0.0558394231, 0, 0.591442764, 0)
 Simplity.Size = UDim2.new(0, 362, 0, 50)
 Simplity.Font = Enum.Font.SourceSans
 Simplity.Text = "Simplity"
@@ -196,20 +200,107 @@ Simplity.MouseButton1Down:Connect(function()
 end)
 UICorner_7.Parent = Simplity
 
-idk.Name = "idk"
-idk.Parent = ScrollingFrame
-idk.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
-idk.BorderColor3 = Color3.fromRGB(36, 36, 36)
-idk.BorderSizePixel = 4
-idk.Position = UDim2.new(0.0558394268, 0, 0.481143326, 0)
-idk.Size = UDim2.new(0, 362, 0, 50)
-idk.Font = Enum.Font.SourceSans
-idk.Text = "More Coming Soon!"
-idk.TextColor3 = Color3.fromRGB(122, 122, 122)
-idk.TextSize = 16.000
-idk.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+Domain.Name = "Domain"
+Domain.Parent = ScrollingFrame
+Domain.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+Domain.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Domain.BorderSizePixel = 4
+Domain.Position = UDim2.new(0.0558394231, 0, 0.652753472, 0)
+Domain.Size = UDim2.new(0, 362, 0, 50)
+Domain.Font = Enum.Font.SourceSans
+Domain.Text = "Domain X"
+Domain.TextColor3 = Color3.fromRGB(122, 122, 122)
+Domain.TextSize = 16.000
+Domain.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+Domain.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+UICorner_8.Parent = Domain
 
-UICorner_8.Parent = idk
+Nameless.Name = "Nameless"
+Nameless.Parent = ScrollingFrame
+Nameless.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+Nameless.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Nameless.BorderSizePixel = 4
+Nameless.Position = UDim2.new(0.0558394268, 0, 0.333279431, 0)
+Nameless.Size = UDim2.new(0, 362, 0, 50)
+Nameless.Font = Enum.Font.SourceSans
+Nameless.Text = "Nameless V4"
+Nameless.TextColor3 = Color3.fromRGB(122, 122, 122)
+Nameless.TextSize = 16.000
+Nameless.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+Domain.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/nameless',true))()
+end)
+UICorner_9.Parent = Nameless
+
+Sad.Name = "Sad"
+Sad.Parent = ScrollingFrame
+Sad.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+Sad.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Sad.BorderSizePixel = 4
+Sad.Position = UDim2.new(0.0534004048, 0, 0.398957402, 0)
+Sad.Size = UDim2.new(0, 362, 0, 50)
+Sad.Font = Enum.Font.SourceSans
+Sad.Text = "Sad "
+Sad.TextColor3 = Color3.fromRGB(122, 122, 122)
+Sad.TextSize = 16.000
+Sad.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+Sad.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/sad"))()
+end)
+UICorner_10.Parent = Sad
+
+dupe.Name = "dupe"
+dupe.Parent = ScrollingFrame
+dupe.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+dupe.BorderColor3 = Color3.fromRGB(36, 36, 36)
+dupe.BorderSizePixel = 4
+dupe.Position = UDim2.new(0.0485223494, 0, 0.713134825, 0)
+dupe.Size = UDim2.new(0, 362, 0, 50)
+dupe.Font = Enum.Font.SourceSans
+dupe.Text = "Coming soon"
+dupe.TextColor3 = Color3.fromRGB(122, 122, 122)
+dupe.TextSize = 16.000
+dupe.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+dupe.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoDark0/EnzoDark0/main/sad"))()
+end)
+UICorner_11.Parent = dupe
+
+petsim.Name = "petsim"
+petsim.Parent = ScrollingFrame
+petsim.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+petsim.BorderColor3 = Color3.fromRGB(36, 36, 36)
+petsim.BorderSizePixel = 4
+petsim.Position = UDim2.new(0.0509613752, 0, 0.775634825, 0)
+petsim.Size = UDim2.new(0, 362, 0, 50)
+petsim.Font = Enum.Font.SourceSans
+petsim.Text = "Pet sim"
+petsim.TextColor3 = Color3.fromRGB(122, 122, 122)
+petsim.TextSize = 16.000
+petsim.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+petsim.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/sinnx32/prx/main/Petsim")()
+end)
+UICorner_12.Parent = petsim
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = ScrollingFrame
+Bedwars.BackgroundColor3 = Color3.fromRGB(55, 62, 71)
+Bedwars.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Bedwars.BorderSizePixel = 4
+Bedwars.Position = UDim2.new(0.0509613752, 0, 0.838134825, 0)
+Bedwars.Size = UDim2.new(0, 362, 0, 50)
+Bedwars.Font = Enum.Font.SourceSans
+Bedwars.Text = "Bedwars"
+Bedwars.TextColor3 = Color3.fromRGB(122, 122, 122)
+Bedwars.TextSize = 16.000
+Bedwars.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+petsim.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+UICorner_13.Parent = Bedwars
 
 PlayerImage.Name = "PlayerImage"
 PlayerImage.Parent = Frame
@@ -219,8 +310,8 @@ PlayerImage.Position = UDim2.new(0.445948005, 0, 0.842085183, 0)
 PlayerImage.Size = UDim2.new(0, 40, 0, 40)
 PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_9.CornerRadius = UDim.new(0, 2147483647)
-UICorner_9.Parent = PlayerImage
+UICorner_14.CornerRadius = UDim.new(0, 2147483647)
+UICorner_14.Parent = PlayerImage
 
 PlayerName.Name = "PlayerName"
 PlayerName.Parent = Frame
@@ -242,26 +333,20 @@ Close.AutoButtonColor = false
 Close.Image = "http://www.roblox.com/asset/?id=10616483390"
 Close.ScaleType = Enum.ScaleType.Crop
 
-soon.Name = "soon"
-soon.Parent = Frame
-soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-soon.BackgroundTransparency = 1.000
-soon.Position = UDim2.new(0.894603312, 0, 0, 0)
-soon.Size = UDim2.new(0, 18, 0, 19)
-soon.Image = "http://www.roblox.com/asset/?id=10616484753"
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 0.867
 
 -- Scripts:
 
-local function WFMNFK_fake_script() -- Close.LocalScript 
+local function LBZDFFS_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-
-coroutine.wrap(WFMNFK_fake_script)()
-local function GFQOYZ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(LBZDFFS_fake_script)()
+local function YLWPOV_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -289,4 +374,4 @@ local function GFQOYZ_fake_script() -- Frame.LocalScript
 	frame.PlayerName.Text = player.Name
 	
 end
-coroutine.wrap(GFQOYZ_fake_script)()
+coroutine.wrap(YLWPOV_fake_script)()
